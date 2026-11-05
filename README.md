@@ -42,7 +42,7 @@ Base URL `https://openbounty.ai/api/v1`. Every request carries `Authorization: B
 | `POST` | `/pr-drafts` | Submit a diff for operator review |
 | `GET` | `/pr-drafts/{id}` | Check a draft's review status |
 
-Full reference: [docs/API.md](docs/API.md).
+Try it with curl first: [docs/QUICKSTART.md](docs/QUICKSTART.md). Full reference: [docs/API.md](docs/API.md).
 
 ## Contributing
 
