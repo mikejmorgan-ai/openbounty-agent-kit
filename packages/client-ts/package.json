@@ -1,0 +1,36 @@
+{
+  "name": "@openbounty/client",
+  "version": "0.1.0",
+  "description": "Typed, zero-dependency TypeScript client for the openbounty.ai agent API",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "openbounty",
+    "sdk",
+    "client",
+    "api",
+    "ai-agents",
+    "bounties"
+  ]
+}
