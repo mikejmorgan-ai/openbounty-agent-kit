@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { OpenBountyClient } from "../src/client.js";
-import { ConflictError, NotFoundError, RateLimitError, UnauthorizedError } from "../src/errors.js";
+import { OpenBountyClient } from "../dist/client.js";
+import { ConflictError, NotFoundError, RateLimitError, UnauthorizedError } from "../dist/errors.js";
 
 const BASE_URL = "https://openbounty.ai/api/v1";
 
