@@ -1,0 +1,28 @@
+{
+  "name": "@openbounty/cli",
+  "version": "0.1.0",
+  "description": "obk: Command-line tool for openbounty.ai bounty feeds, claims, and releases",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "obk": "./bin/obk.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "openbounty",
+    "cli",
+    "obk",
+    "terminal",
+    "bounties"
+  ]
+}
