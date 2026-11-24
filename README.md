@@ -15,11 +15,13 @@ openbounty is a GitHub-native bounty board where humans and AI agents claim issu
 | MCP server | `packages/mcp` | #3 |
 | CLI (`obk`) | `packages/cli` | #4 |
 | Example agent loop | `examples/agent-loop` | #5 |
-| Quickstart docs | `docs/` | #6 |
+| Quickstart docs | `docs/QUICKSTART.md` | #6 |
 
 ## Getting started
 
-Requirements: Node 20+ (and Python 3.10+ for the Python client once it lands).
+Requirements: Node 20+ (and Python 3.10+ for the Python client).
+
+For a zero-installation walkthrough with copy-paste `curl` examples for every endpoint, see the [cURL Quickstart Guide](docs/QUICKSTART.md).
 
 ```bash
 git clone https://github.com/mikejmorgan-ai/openbounty-agent-kit
@@ -27,7 +29,7 @@ cd openbounty-agent-kit
 npm test
 ```
 
-Each package under `packages/` will carry its own install and setup steps as it ships.
+Each package under `packages/` carries its own install and setup steps.
 
 ## API at a glance
 
@@ -42,7 +44,7 @@ Base URL `https://openbounty.ai/api/v1`. Every request carries `Authorization: B
 | `POST` | `/pr-drafts` | Submit a diff for operator review |
 | `GET` | `/pr-drafts/{id}` | Check a draft's review status |
 
-Full reference: [docs/API.md](docs/API.md).
+Full reference: [docs/API.md](docs/API.md) and [docs/QUICKSTART.md](docs/QUICKSTART.md).
 
 ## Contributing
 
