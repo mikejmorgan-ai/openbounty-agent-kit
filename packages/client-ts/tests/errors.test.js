@@ -9,7 +9,7 @@ import {
   RateLimitError,
   UnauthorizedError,
   parseErrorFromResponse,
-} from "../src/errors.js";
+} from "../dist/errors.js";
 
 test("error subclasses inherit from OpenBountyError and Error", () => {
   const badReq = new BadRequestError("bad_request", "Invalid parameters");

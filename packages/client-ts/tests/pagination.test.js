@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { OpenBountyClient } from "../src/client.js";
+import { OpenBountyClient } from "../dist/client.js";
 
 test("iterPages and iterBounties traverse cursor pagination", async () => {
   const store = {
